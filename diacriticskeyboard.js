@@ -64,7 +64,7 @@ $(function () {
         'enter': '{!!clear} {!!a} {!!c}'
     };
     
-    $('.diacritics').keyboard({
+    $('.diacritics, .diacriticsa, diacriticsb').keyboard({
         openOn: '',
         position: {
             // null (attach to input/textarea) or a jQuery object (attach elsewhere)
@@ -352,4 +352,11 @@ $(function () {
     $('.kb').click(function () {
         var kb = $('.diacritics').getkeyboard().reveal();
     });
+    $('.kba').click(function () {
+        var kb = $('.diacriticsa').getkeyboard().reveal();
+    });
+    $('.kbb').click(function () {
+        var kb = $('.diacriticsb').getkeyboard().reveal();
+    });
+    
 });

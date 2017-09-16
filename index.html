@@ -4,6 +4,42 @@
         <meta charset="UTF-8"></meta>
         <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"></link>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/virtual-keyboard/1.26.22/css/keyboard-basic.min.css"></link>
+        <style>
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: "Noto Sans", "Noto Sans Ethiopic", "Noto Arabic", "Noto Sans Georgian", "Noto Sans Armenian", "Noto Sans Old South Arabian", "Noto Sans Coptic", sans-serif;
+}
+
+/*** Alt-Keys Popup extension (included in the keyboard.css file) ***/
+/* clickable overlay on top of keyboard to hide the popup */
+.ui-keyboard-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* the actual popup styling, class names from the css.container option
+ are also added */
+.ui-keyboard-popup {
+  display: inline-block;
+  /* default buttons are 2em wide + .1em margin on either side (set in
+   .ui-keyboard-button definition); so use multiples of 2.2em for a
+   max-width if you don't want any extra white space on the sides,
+   e.g. 5 buttons * 2.2em = 11em, 6 buttons * 2.2em = 13.2em, etc
+  */
+  max-width: 22em; /* 10 buttons */
+}
+.ui-keyboard {
+  border-radius: 0;
+  left: 0;
+  bottom: inherit;
+  position: fixed;
+  width: 50%;
+}
+        </style>
+        
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.0/clipboard.min.js"></script>
@@ -44,7 +80,10 @@
             <div class="row" id="text">
                 <div class="col-md-6">
                     <form>
-                        <textarea class="form-control" name="enter" id="textinput" style="width: 100%; height: 300px"></textarea>
+                        <textarea class="form-control diacriticsb" name="enter" id="textinput" style="width: 100%; height: 300px"></textarea>
+                        <a class="kbb btn btn-success">
+                            <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                        </a>
                     </form>
                 </div>
                 <div class="col-md-6">
@@ -132,7 +171,10 @@
             <div class="row" id="textTr">
                 <div class="col-md-6">
                     <form>
-                        <textarea class="form-control" id="inputtranslitteration" style="width: 100%; height: 300px" placeholder="Enter here transliteration"></textarea>
+                        <textarea class="form-control diacriticsa" id="inputtranslitteration" style="width: 100%; height: 300px" placeholder="Enter here transliteration"></textarea>
+                        <a class="kba btn btn-success">
+                            <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                        </a>
                         <textarea class="form-control diacritics" id="inputfidel" style="width: 100%; height: 300px" placeholder="Enter here fidal"></textarea>
                         <a class="kb btn btn-success">
                             <i class="fa fa-keyboard-o" aria-hidden="true"></i>
