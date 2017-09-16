@@ -64,7 +64,7 @@ $(function () {
         'enter': '{!!clear} {!!a} {!!c}'
     };
     
-    $('.diacritics, .diacriticsa, diacriticsb').keyboard({
+    $('.diacritics, .diacriticsa, .diacriticsb').keyboard({
         openOn: '',
         position: {
             // null (attach to input/textarea) or a jQuery object (attach elsewhere)
