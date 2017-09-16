@@ -353,10 +353,10 @@ $(function () {
         var kb = $('.diacritics').getkeyboard().reveal();
     });
     $('.kba').click(function () {
-        var kb = $('.diacriticsa').getkeyboard().reveal();
+        var kba = $('.diacriticsa').getkeyboard().reveal();
     });
     $('.kbb').click(function () {
-        var kb = $('.diacriticsb').getkeyboard().reveal();
+        var kbb = $('.diacriticsb').getkeyboard().reveal();
     });
     
 });
