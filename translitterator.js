@@ -179,7 +179,7 @@ $(document).on('ready', function () {
         var units =[]
         // consider letter by letter
         // split to units consontants+vowel or space.
-        var split = input.match(/(([ṭṗṣḍḫčḥśʿʾbcdfghlmnpqrstvzwyxk])\2?ʷ?\u0323?[aeiouāēǝ]?|\s+)/ig);
+        var split = input.match(/(([ṭṗṣḍḫčḥśʿʾbcdfghHlmnpqrstvzwyxk])\2?ʷ?\u0323?[aeiouāēǝ]?|\s+)/ig);
         var splitLen = split.length;
         //console.log(split)
         // the array should contain each unit
