@@ -4,6 +4,8 @@ var vowels =[ "a", "u", "i", "ā", "e", "ǝ", "o", ""]
 var fidel =[ {
     letter: "h", realization:[ "ሀ", "ሁ", "ሂ", "ሃ", "ሄ", "ህ", "ሆ"]
 }, {
+    letter: "H", realization:[ "ሀ", "ሁ", "ሂ", "ሃ", "ሄ", "ህ", "ሆ"]
+},{
     letter: "l", realization:[ "ለ", "ሉ", "ሊ", "ላ", "ሌ", "ል", "ሎ"]
 }, {
     letter: "ḥ", realization:[ "ሐ", "ሑ", "ሒ", "ሓ", "ሔ", "ሕ", "ሖ"]
