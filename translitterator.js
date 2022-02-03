@@ -151,7 +151,7 @@ var fidel =[ {
     letter: "š", realization:[ "ሸ", "ሹ", "ሺ", "ሻ", "ሼ", "ሽ", "ሾ"]
 }, 
 {
-    letter: "Ś", realization:[ "ሸ", "ሹ", "ሺ", "ሻ", "ሼ", "ሽ", "ሾ"]
+    letter: "Š", realization:[ "ሸ", "ሹ", "ሺ", "ሻ", "ሼ", "ሽ", "ሾ"]
 },
 {
     letter: "ñ", realization:[ "ኘ", "ኙ", "ኚ", "ኛ", "ኜ", "ኝ", "ኞ"]
@@ -249,7 +249,7 @@ $(document).on('ready', function () {
         var units =[]
         // consider letter by letter
         // split to units consontants+vowel or space.
-        var split = input.match(/(([ṭṗṣḍḫčḥśṬṖṢḌḪČḤŚǧǦč̣Č̣q̲Q̲ḵḴžŽʿʾbcdfghlmnpqrstvzwyxkBCDFGHLMNPQRSTVZWYXK])\2?ʷ?\u0323?[aeiouāēǝAEIOUĀĒƎ]?|\s+)/ig);
+        var split = input.match(/(([ṭṗṣḍḫčḥśṬṖṢḌḪČḤŚǧǦč̣Č̣q̲Q̲ḵḴžŽšŠʿʾbcdfghlmnpqrstvzwyxkBCDFGHLMNPQRSTVZWYXK])\2?ʷ?\u0323?[aeiouāēǝAEIOUĀĒƎ]?|\s+)/ig);
         var splitLen = split.length;
         //console.log(split)
         // the array should contain each unit
