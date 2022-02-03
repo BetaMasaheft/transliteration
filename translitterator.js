@@ -20,83 +20,147 @@ var fidel =[ {
 }, {
     letter: "ś", realization:[ "ሠ", "ሡ", "ሢ", "ሣ", "ሤ", "ሥ", "ሦ"]
 }, {
+    letter: "Ś", realization:[ "ሠ", "ሡ", "ሢ", "ሣ", "ሤ", "ሥ", "ሦ"]
+}, {
     letter: "r", realization:[ "ረ", "ሩ", "ሪ", "ራ", "ሬ", "ር", "ሮ"]
+}, {
+    letter: "R", realization:[ "ረ", "ሩ", "ሪ", "ራ", "ሬ", "ር", "ሮ"]
 }, {
     letter: "s", realization:[ "ሰ", "ሱ", "ሲ", "ሳ", "ሴ", "ስ", "ሶ"]
 }, {
+    letter: "S", realization:[ "ሰ", "ሱ", "ሲ", "ሳ", "ሴ", "ስ", "ሶ"]
+}, {
     letter: "q", realization:[ "ቀ", "ቁ", "ቂ", "ቃ", "ቄ", "ቅ", "ቆ"]
+}, {
+    letter: "Q", realization:[ "ቀ", "ቁ", "ቂ", "ቃ", "ቄ", "ቅ", "ቆ"]
 }, {
     letter: "b", realization:[ "በ", "ቡ", "ቢ", "ባ", "ቤ", "ብ", "ቦ"]
 }, {
+    letter: "B", realization:[ "በ", "ቡ", "ቢ", "ባ", "ቤ", "ብ", "ቦ"]
+}, {
     letter: "t", realization:[ "ተ", "ቱ", "ቲ", "ታ", "ቴ", "ት", "ቶ"]
+}, {
+    letter: "T", realization:[ "ተ", "ቱ", "ቲ", "ታ", "ቴ", "ት", "ቶ"]
 }, {
     letter: "ḫ", realization:[ "ኀ", "ኁ", "ኂ", "ኃ", "ኄ", "ኅ", "ኆ"]
 }, {
+    letter: "Ḫ", realization:[ "ኀ", "ኁ", "ኂ", "ኃ", "ኄ", "ኅ", "ኆ"]
+}, {
     letter: "n", realization:[ "ነ", "ኑ", "ኒ", "ና", "ኔ", "ን", "ኖ"]
+},  {
+    letter: "N", realization:[ "ነ", "ኑ", "ኒ", "ና", "ኔ", "ን", "ኖ"]
 }, {
     letter: "ʾ", realization:[ "አ", "ኡ", "ኢ", "ኣ", "ኤ", "እ", "ኦ"]
 }, {
     letter: "k", realization:[ "ከ", "ኩ", "ኪ", "ካ", "ኬ", "ክ", "ኮ"]
+},  {
+    letter: "K", realization:[ "ከ", "ኩ", "ኪ", "ካ", "ኬ", "ክ", "ኮ"]
 }, {
     letter: "w", realization:[ "ወ", "ዉ", "ዊ", "ዋ", "ዌ", "ው", "ዎ"]
+}, {
+    letter: "W", realization:[ "ወ", "ዉ", "ዊ", "ዋ", "ዌ", "ው", "ዎ"]
 }, {
     letter: "ʿ", realization:[ "ዐ", "ዑ", "ዒ", "ዓ", "ዔ", "ዕ", "ዖ"]
 }, {
     letter: "z", realization:[ "ዘ", "ዙ", "ዚ", "ዛ", "ዜ", "ዝ", "ዞ"]
 }, {
+    letter: "Z", realization:[ "ዘ", "ዙ", "ዚ", "ዛ", "ዜ", "ዝ", "ዞ"]
+}, {
     letter: "y", realization:[ "የ", "ዩ", "ዪ", "ያ", "ዬ", "ይ", "ዮ"]
 }, {
+    letter: "Y", realization:[ "የ", "ዩ", "ዪ", "ያ", "ዬ", "ይ", "ዮ"]
+}, {
     letter: "d", realization:[ "ደ", "ዱ", "ዲ", "ዳ", "ዴ", "ድ", "ዶ"]
+},  {
+    letter: "D", realization:[ "ደ", "ዱ", "ዲ", "ዳ", "ዴ", "ድ", "ዶ"]
 }, {
     letter: "g", realization:[ "ገ", "ጉ", "ጊ", "ጋ", "ጌ", "ግ", "ጎ"]
+},  {
+    letter: "G", realization:[ "ገ", "ጉ", "ጊ", "ጋ", "ጌ", "ግ", "ጎ"]
 }, {
     letter: "ṭ", realization:[ "ጠ", "ጡ", "ጢ", "ጣ", "ጤ", "ጥ", "ጦ"]
+},  {
+    letter: "Ṭ", realization:[ "ጠ", "ጡ", "ጢ", "ጣ", "ጤ", "ጥ", "ጦ"]
 }, {
     letter: "ṗ", realization:[ "ጰ", "ጱ", "ጲ", "ጳ", "ጴ", "ጵ", "ጶ"]
+},  {
+    letter: "Ṗ", realization:[ "ጰ", "ጱ", "ጲ", "ጳ", "ጴ", "ጵ", "ጶ"]
 }, {
     letter: "ṣ", realization:[ "ጸ", "ጹ", "ጺ", "ጻ", "ጼ", "ጽ", "ጾ"]
+},  {
+    letter: "Ṣ", realization:[ "ጸ", "ጹ", "ጺ", "ጻ", "ጼ", "ጽ", "ጾ"]
 }, {
     letter: "ḍ", realization:[ "ፀ", "ፁ", "ፂ", "ፃ", "ፄ", "ፅ", "ፆ"]
+},  {
+    letter: "Ḍ", realization:[ "ፀ", "ፁ", "ፂ", "ፃ", "ፄ", "ፅ", "ፆ"]
 }, {
     letter: "f", realization:[ "ፈ", "ፉ", "ፊ", "ፋ", "ፌ", "ፍ", "ፎ"]
+},  {
+    letter: "F", realization:[ "ፈ", "ፉ", "ፊ", "ፋ", "ፌ", "ፍ", "ፎ"]
 }, {
     letter: "p", realization:[ "ፐ", "ፑ", "ፒ", "ፓ", "ፔ", "ፕ", "ፖ"]
+},  {
+    letter: "P", realization:[ "ፐ", "ፑ", "ፒ", "ፓ", "ፔ", "ፕ", "ፖ"]
 }, {
     letter: "qʷ", realization:[ "ቈ", "", "ቊ", "ቋ", "ቌ", "ቍ", ""]
+},  {
+    letter: "Qʷ", realization:[ "ቈ", "", "ቊ", "ቋ", "ቌ", "ቍ", ""]
 }, {
     letter: "ḫʷ", realization:[ "ኈ", "", "ኊ", "ኋ", "ኌ", "ኍ", ""]
+},  {
+    letter: "Ḫʷ", realization:[ "ኈ", "", "ኊ", "ኋ", "ኌ", "ኍ", ""]
 }, {
     letter: "kʷ", realization:[ "ኰ", "", "ኲ", "ኳ", "ኴ", "ኵ", ""]
+},  {
+    letter: "Kʷ", realization:[ "ኰ", "", "ኲ", "ኳ", "ኴ", "ኵ", ""]
 }, {
     letter: "gʷ", realization:[ "ጐ", "", "ጒ", "ጓ", "ጔ", "ጕ", ""]
+},  {
+    letter: "Gʷ", realization:[ "ጐ", "", "ጒ", "ጓ", "ጔ", "ጕ", ""]
 }, {
     letter: "č", realization:[ "ቸ", "ቹ", "ቺ", "ቻ", "ቼ", "ች", "ቾ"]
-},
-{
+},  {
+    letter: "Č", realization:[ "ቸ", "ቹ", "ቺ", "ቻ", "ቼ", "ች", "ቾ"]
+}, {
     letter: "ŋ", realization:[ "ጘ", "ጙ", "ጚ", "ጛ", "ጜ", "ጝ", "ጞ"]
 },
 {
     letter: "ŋʷa", realization:[ "ⶓ", "", "ⶔ", "", "ⶕ", "ⶖ", ""]
 }, {
     letter: "ǧ", realization:[ "ጀ", "ጁ", "ጂ", "ጃ", "ጄ", "ጅ", "ጆ"]
+},  {
+    letter: "Ǧ", realization:[ "ጀ", "ጁ", "ጂ", "ጃ", "ጄ", "ጅ", "ጆ"]
 },
 {
     letter: "č̣", realization:[ "ጨ", "ጩ", "ጪ", "ጫ", "ጬ", "ጭ", "ጮ"]
 },
 {
+    letter: "Č̣", realization:[ "ጨ", "ጩ", "ጪ", "ጫ", "ጬ", "ጭ", "ጮ"]
+},
+{
     letter: "q̲", realization:[ "ቐ", "ቑ", "ቒ", "ቓ", "ቔ", "ቕ", "ቖ"]
+}, {
+    letter: "Q̲", realization:[ "ቐ", "ቑ", "ቒ", "ቓ", "ቔ", "ቕ", "ቖ"]
 },
 {
     letter: "ḵ", realization:[ "ኸ", "ኹ", "ኺ", "ኻ", "ኼ", "ኽ", "ኾ"]
+}, {
+    letter: "Ḵ", realization:[ "ኸ", "ኹ", "ኺ", "ኻ", "ኼ", "ኽ", "ኾ"]
 },
 {
     letter: "š", realization:[ "ሸ", "ሹ", "ሺ", "ሻ", "ሼ", "ሽ", "ሾ"]
+}, 
+{
+    letter: "Ś", realization:[ "ሸ", "ሹ", "ሺ", "ሻ", "ሼ", "ሽ", "ሾ"]
 },
 {
     letter: "ñ", realization:[ "ኘ", "ኙ", "ኚ", "ኛ", "ኜ", "ኝ", "ኞ"]
 },
 {
     letter: "ž", realization:[ "ዠ", "ዡ", "ዢ", "ዣ", "ዤ", "ዥ", "ዦ"]
+}, 
+{
+    letter: "Ž", realization:[ "ዠ", "ዡ", "ዢ", "ዣ", "ዤ", "ዥ", "ዦ"]
 }]
 
 
@@ -185,7 +249,7 @@ $(document).on('ready', function () {
         var units =[]
         // consider letter by letter
         // split to units consontants+vowel or space.
-        var split = input.match(/(([ṭṗṣḍḫčḥśṬṖṢḌḪČḤŚʿʾbcdfghlmnpqrstvzwyxkBCDFGHLMNPQRSTVZWYXK])\2?ʷ?\u0323?[aeiouāēǝAEIOUĀĒƎ]?|\s+)/ig);
+        var split = input.match(/(([ṭṗṣḍḫčḥśṬṖṢḌḪČḤŚǧǦč̣Č̣q̲Q̲ḵḴžŽʿʾbcdfghlmnpqrstvzwyxkBCDFGHLMNPQRSTVZWYXK])\2?ʷ?\u0323?[aeiouāēǝAEIOUĀĒƎ]?|\s+)/ig);
         var splitLen = split.length;
         //console.log(split)
         // the array should contain each unit
