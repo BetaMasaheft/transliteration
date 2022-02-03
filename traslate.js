@@ -2,12 +2,13 @@ $(document).ready(function () {
     $('#textinput').on("change paste", function () {
         
         var transcriptions = {
-            "ä": "a", "a": "ā", "ṣ́": "ḍ", "ˀ": "ʾ", "ˁ": "ʿ"
+            "ä": "a", "a": "ā", "ṣ́": "ḍ", "ˀ": "ʾ", "ˁ": "ʿ", "qw": "qʷ", "Qw": "Qʷ", "kw": "kʷ" , "KW": "Kʷ", "gw": "gʷ", "Gw": "Gʷ", "ḫw": "ḫʷ", "Ḫw": "Ḫʷ", "ŋw": "ŋʷ"
         };
+        
         var vowels =[ "a", "e", "i", "o", "u", "ǝ", "Ǝ", "A", "E", "I", "O", "U"];
         
-        
         var prepositions =[ "wa", "Wa", "ba", "Ba", "ya", "Ya", "za", "Za", "la", "La", "ka", "Ka", "ʾǝm"];
+        
         
         var input = this.value;
         //console.log(this.value);
