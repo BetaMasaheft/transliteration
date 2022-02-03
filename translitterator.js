@@ -5,12 +5,18 @@ var fidel =[ {
     letter: "h", realization:[ "ሀ", "ሁ", "ሂ", "ሃ", "ሄ", "ህ", "ሆ"]
 }, {
     letter: "H", realization:[ "ሀ", "ሁ", "ሂ", "ሃ", "ሄ", "ህ", "ሆ"]
-},{
+}, {
     letter: "l", realization:[ "ለ", "ሉ", "ሊ", "ላ", "ሌ", "ል", "ሎ"]
+}, {
+    letter: "L", realization:[ "ለ", "ሉ", "ሊ", "ላ", "ሌ", "ል", "ሎ"]
 }, {
     letter: "ḥ", realization:[ "ሐ", "ሑ", "ሒ", "ሓ", "ሔ", "ሕ", "ሖ"]
 }, {
+    letter: "Ḥ", realization:[ "ሐ", "ሑ", "ሒ", "ሓ", "ሔ", "ሕ", "ሖ"]
+}, {
     letter: "m", realization:[ "መ", "ሙ", "ሚ", "ማ", "ሜ", "ም", "ሞ"]
+}, {
+    letter: "M", realization:[ "መ", "ሙ", "ሚ", "ማ", "ሜ", "ም", "ሞ"]
 }, {
     letter: "ś", realization:[ "ሠ", "ሡ", "ሢ", "ሣ", "ሤ", "ሥ", "ሦ"]
 }, {
@@ -179,7 +185,7 @@ $(document).on('ready', function () {
         var units =[]
         // consider letter by letter
         // split to units consontants+vowel or space.
-        var split = input.match(/(([ṭṗṣḍḫčḥśʿʾbcdfghHlmnpqrstvzwyxk])\2?ʷ?\u0323?[aeiouāēǝ]?|\s+)/ig);
+        var split = input.match(/(([ṭṗṣḍḫčḥśṬṖṢḌḪČḤŚʿʾbcdfghlmnpqrstvzwyxkBCDFGHLMNPQRSTVZWYXK])\2?ʷ?\u0323?[aeiouāēǝAEIOUĀĒƎ]?|\s+)/ig);
         var splitLen = split.length;
         //console.log(split)
         // the array should contain each unit
